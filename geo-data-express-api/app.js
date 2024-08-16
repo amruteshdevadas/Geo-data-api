@@ -7,7 +7,8 @@ import mongoose from "mongoose";
 
 import indexRouter from "./routes/index.js";
 import usersRouter from "./routes/users.js";
-
+import locationRouter from "./routes/locations.js";
+import fencesRouter from "./routes/geofences.js";
 const app = express();
 
 // view engine setup
@@ -22,6 +23,8 @@ app.use(express.static(path.join(path.resolve(), "public")));
 
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
+app.use("/locations", locationRouter);
+app.use("/geo-fences", fencesRouter);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
