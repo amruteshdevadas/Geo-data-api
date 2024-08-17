@@ -4,12 +4,16 @@ import path from "path";
 import cookieParser from "cookie-parser";
 import logger from "morgan";
 import mongoose from "mongoose";
+import cors from "cors";
 
 import indexRouter from "./routes/index.js";
 import usersRouter from "./routes/users.js";
 import locationRouter from "./routes/locations.js";
 import fencesRouter from "./routes/geofences.js";
 const app = express();
+
+// Enable CORS for all origins
+app.use(cors());
 
 // view engine setup
 app.set("views", path.join(path.resolve(), "views"));
