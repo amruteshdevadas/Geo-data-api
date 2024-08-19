@@ -1,0 +1,105 @@
+[{
+  "_id": {
+    "$oid": "66c2d28d0b7b5b31d1232630"
+  },
+  "name": "Central Park",
+  "type": "landmark",
+  "address": "New York, NY 10024, USA",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -73.965355,
+      40.782865
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "66c2d28d0b7b5b31d1232631"
+  },
+  "name": "Joe's Pizza",
+  "type": "restaurant",
+  "address": "7 Carmine St, New York, NY 10014, USA",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -74.002331,
+      40.730599
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "66c2d28d0b7b5b31d1232632"
+  },
+  "name": "Apple Store Fifth Avenue",
+  "type": "store",
+  "address": "767 5th Ave, New York, NY 10153, USA",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -73.973988,
+      40.763901
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "66c2d28d0b7b5b31d1232633"
+  },
+  "name": "Eiffel Tower",
+  "type": "landmark",
+  "address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      2.294481,
+      48.85837
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "66c2d28d0b7b5b31d1232634"
+  },
+  "name": "The British Museum",
+  "type": "landmark",
+  "address": "Great Russell St, London WC1B 3DG, UK",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -0.127708,
+      51.519413
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "66c2d28d0b7b5b31d1232635"
+  },
+  "name": "Starbucks",
+  "type": "store",
+  "address": "1912 Pike Pl, Seattle, WA 98101, USA",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -122.340227,
+      47.610377
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "66c2d28d0b7b5b31d1232636"
+  },
+  "name": "Taj Mahal",
+  "type": "landmark",
+  "address": "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001, India",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      78.042155,
+      27.175015
+    ]
+  }
+}]
