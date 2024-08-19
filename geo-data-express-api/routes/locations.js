@@ -28,13 +28,26 @@ router.post("/", async (req, res, next) => {
   }
 });
 
-router.post("/:id", async (req, res, next) => {
+router.put("/:id", async (req, res, next) => {
   try {
     const payload = req.body;
     const locationId = req.params.id;
     await locationModel.updateOne({ _id: locationId }, payload);
     res.status(201).json({
       status: "Updated successfully",
+    });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ error: "Database error occurred." });
+  }
+});
+
+router.delete("/:id", async (req, res, next) => {
+  try {
+    const locationId = req.params.id;
+    await locationModel.deleteOne(locationId);
+    res.status(201).json({
+      status: "deleted successfully",
     });
   } catch (error) {
     console.log(error);
